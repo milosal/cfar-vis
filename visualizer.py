@@ -5,6 +5,7 @@ import torch.nn.functional as F
 from torchvision import datasets, transforms
 import matplotlib.pyplot as plt
 import numpy as np
+from PIL import Image
 
 class Net(nn.Module):
     def __init__(self):
